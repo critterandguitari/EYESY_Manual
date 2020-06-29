@@ -654,7 +654,7 @@ We leave it to you to have a working knowledge of **Python**, to come up with so
 
 #Chapter Six - Appendix
 
-## 6.1 Burning SD Card Disk Image 
+## Burning SD Card Disk Image 
 
 In addition to storing modes, the microSD card also stores the EYESY's operating system.  
 
