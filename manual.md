@@ -649,10 +649,7 @@ Finally, we are not telling you how to make modes. We aren’t telling you what 
 
 We leave it to you to have a working knowledge of **Python**, to come up with some ideas for tweaks or completely new modes, and to try and make it work. Even if you don’t nail it the first time, chances are you will come across some happy accidents as you go. As always, it’s along the way that art gets made.
 
-
-
-
-#Chapter Six - Appendix
+# Chapter Six - Appendix
 
 ## Burning SD Card Disk Image 
 
