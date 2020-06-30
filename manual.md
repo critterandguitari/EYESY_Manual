@@ -390,7 +390,7 @@ We will start with getting connected to EYESY with WiFi, then discussing the par
 
 > **NOTE:**  The included `USB-WiFi Adapter` uses the Ralink 5370 chipset. This adapter will only connect to 2.4 GHz WiFi networks.  We have experimented with other WiFi adapters but we don't have a conclusive list of what works and what doesn't.  Please consult the [forum](https://forum.critterandguitari.com) to discuss other possible adapters.  When in doubt, stick with the included adapter which has been proven to work very well.
 
-#### Access Point vs. Joining Existing Networks
+## Access Point vs. Joining Existing Networks
 
 The EYESY has two modes of WiFi operation: the *Access Point* (*AP*) and *normal* modes.  With *AP* mode the EYESY uses the `USB-WiFi Adapter` to create its own network (Access Point, or hot-spot). In *normal* mode the EYESY uses the `USB-WiFi Adapter` to connect to an existing WiFi network. File management and programming are done in the same manner regardless of WiFi mode. Said another way, the EYESY is agnostic about which method you choose. 
 
@@ -424,7 +424,7 @@ You can change an existing network's details at any time. You can also change th
 
 Now that we know both ways to connect to EYESY via WiFi, we can get into the nitty gritty: 
 
-#### Explanation of the Editor
+## Explanation of the Editor
 
 The `Editor` is a way to look into and modify the EYESY in real time. You can move, add, delete, and copy files and folders just like you can with your computer's Finder/File Explorer. You can also view, edit, and reload the code for a given mode. To assist with with programming, the `Editor` has a `Console` so you can debug your modes. With these functions in mind, it should be no surprise that it is divided into three sections:
 
@@ -446,7 +446,7 @@ From top to bottom, the commands are:
 	- To copy a folder to/from the EYESY, you will need to zip it first. Folders cannot be uploaded or downloaded without zipping first. 
 - *File Browser*: At boot up, *Home/* will be displayed above three folders and a file called 'Scenes.csv'. The *Home* folder contains these folders and file. You can click into the folders (e.g. *Home/Modes/*) or click a file to be displayed in the `Code` pane. More about the file browser and file management below.
 
-##### Folder & File Management in the MicroSD Card
+## Folder & File Management in the MicroSD Card
 
 As has been mentioned, EYESY needs a microSD card to run. The card that ships with EYESY has two partitions: one for the OS and one for storage. It's best to pretend that the OS partition does not exist - there's not much there to customize, and you can't access it from the `Editor`. The storage partition's *Home* folder is where everything we want to use is. The only way to access *Home* is via WiFi. Modes are stored and run directly from *Home*. (While not mission-critical, scenes and screenshots are also stored here to.) Some rules apply:
 
@@ -549,7 +549,7 @@ In this chapter, we will start with the concepts and requirements for any EYESY 
 So this is the road before us. We have already seen how EYESY handles; now let’s change the oil and go for a spin...
 
 
-### How Mode Scripts Work
+## How Mode Scripts Work
 
 A word or two on how EYESY actually does its work will go a long way. We will spend a moment on the languages at play and the system behavior of EYESY, and then we will talk about the basic requirements of a mode.
 
@@ -605,11 +605,11 @@ Next comes the `draw()` function. The first three lines of the function are defi
 That is about the simplest mode we could make, and its result is equally simple — a red circle is drawn near the middle of the screen, each and every frame, forever. This example offers the basic framework for examining the factory modes and for understanding how to structure your own modes. Our only suggestion is an obvious one: you should probably send different images out of EYESY from time to time.
 
 
-#### EYESY’s API
+## EYESY’s API
 
 Having walked through the general framework and requirements of EYESY’s modes, it’s time to take a look at the API (application programming interface) available when working with EYESY. The `etc` object contains a number of variables, all of which can be accessed from any mode:
 
--   `etc.audio_in` - A *list* of the 100 most recent audio levels registered by EYESY's left audio input channel. These values are stored as 16-bit, signed integers, ranging from a minimum of -32,768 to a maximum of +32,767. Additionally, depressing the *Trigger* button populates this list with a sine wave, simulating audio input to EYESY.
+-   `etc.audio_in` - A *list* of the 100 most recent audio levels registered by EYESY's audio input channel. The left and right input channels are merged into one mono channel. The 100 audio values are stored as 16-bit, signed integers, ranging from a minimum of -32,768 to a maximum of +32,767. Additionally, depressing the *Trigger* button populates this list with a sine wave, simulating audio input to EYESY.
 -   `etc.audio_trig` - A *boolean* value indicating a trigger event.  The trigger source is selected with `Shift + Trigger Select Knob`.  When audio is selected as source a trigger is event fires when audio has exceeded the fixed threshold level (approximately 80% of maximum) since the last frame was drawn via the `draw()`function. Additionally, depressing the *Trigger* button sets `etc.audio_trig` to `true`.    
 -	 `etc.xres` - A *float* of the horizontal component of the current output resolution. 
 -	 `etc.yres` - A *float* of the vertical component of the current output resolution. 
