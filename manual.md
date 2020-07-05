@@ -42,14 +42,14 @@ Follow these steps to make your sound visual.
 2. Unit is not user serviceable. Contact manufacturer if damaged
 3. *This device may generate imagery which can trigger photosensitive seizures. Immediately stop use and consult a doctor if you experience any form of discomfort, disorientation, or adverse physical reaction.*
 
-# Chapter One: EYESY Concepts
+# 1. EYESY Concepts
 
 ### What is this box with the curious icons?!
 
 Again, welcome to the world of **EYESY**! As this video instrument has an inherent range and can work for different people in different ways, let us start by talking about what it is and where on Earth (or beyond!) it came from. We’ll then look at some of the basic concepts in play and make sure we are speaking the same language. Then we’ll close with a word on using this guide, preparing you to go forth and visually multiply. So back to our origin story…
 
 
-## Where did the EYESY come from?
+## 1.1 Where did the EYESY come from?
 
 We at Critter & Guitari (hello!) have released video synthesizers before, and we are still rather fond of those devices. Their intended use was simple:
 
@@ -98,7 +98,7 @@ Yes! All of EYESY’s modes are written in **Python** using the graphics library
 Exactly! EYESY is a vehicle for creating visuals. You may want that in a live performance environment, or you might wish to capture and edit the output. Perhaps you want someone to operate EYESY throughout your set, or maybe you yourself just lean over and switch *scene* presets ever song or two. You might want to get out a text editor and code a custom mode, but you can just as easily download new modes that others have written. Any of these choices are valid as long as they serve your purposes!
 
 
-## EYESY Concepts
+## 1.2 EYESY Concepts
 
 Our introduction and the sticker on the back of EYESY have already hinted at certain ideas and the terms we are using to express them. Let’s take a moment to be clear about the concepts in play, specifically **Modes** and **Scenes**.
 
@@ -123,7 +123,7 @@ the *Persist Toggle* button is enabled or disabled.
 The next chapter will explore how to put all of these ideas into action, but understanding modes versus scenes will let us hit the ground running.
 
 
-## How to Use This Manual
+## 1.3 How to Use This Manual
 
 Certain chapters (such as this one!) are relevant to everyone. But depending on how you plan to use EYESY, some information may prove more valuable to you.
 
@@ -134,7 +134,7 @@ Certain chapters (such as this one!) are relevant to everyone. But depending on 
 
 Just realize that how you use EYESY today may be very different from how you use it a week from now. This is to say feel free to skip information that isn’t of use to you today; you may find that later chapters appreciate in value over time.
 
-# Chapter Two: General Operation of EYESY
+# 2. General Operation of EYESY
 
 ### Knowing the knobs and buttons is worth more than a thousand words.
 
@@ -145,7 +145,7 @@ In this chapter, we will walk through EYESY from the user’s perspective, with 
 So let’s turn the knobs, push the buttons, and watch what happens!...
 
 
-## Row 1: System Controls
+## 2.1 System Controls
 
 The top row of EYESY has system-level controls. We will discuss these items from left to right.
 
@@ -223,7 +223,7 @@ The `Persist Toggle` allows us to disable this clearing function. When `Persist`
 There is a dependent relationship between the `Persist` and modes that have a knob (or other method) for controlling the background color. When clearing has been toggled *Off*, the changes to the the background color will not be visible. When the button is toggled back to normal clearing behavior, any changes to the background color will be visible again.
 
 
-## Row 2: Mode Parameter Controls
+## 2.2 Mode Parameter Controls
 
 ![](images/EYESY-row-middle.jpg)
 
@@ -244,7 +244,7 @@ Turning a knob is always an absolute gesture: as soon as a change in the knob’
 And as for how to switch between different modes and scenes (and store new scenes), well it’s funny that you ask…
 
 
-## Row 3: Functional Controls
+## 2.3 Functional Controls
 
 The bottom row of EYESY has a number of navigation and action-based options, all in the form of maple buttons. We will look at each one, going from left to right.
 
@@ -309,7 +309,7 @@ If you will be using the USB port to power other devices like a class-compliant 
 Note that we aren’t discussing how to produce certain types of images or effects. While the controls offered by EYESY are generally similar, each mode is unique its own right and can be used in ways that even we can’t imagine. And if those provided options aren’t enough, then continue with us to the next chapter.
 
 
-# Chapter Three: EYESY’s MIDI Configuration
+# 3. EYESY’s MIDI Configuration
 
 Let's look at EYESY’s MIDI implementation. This will be useful if you want to connect external MIDI — including USB-MIDI — controllers to EYESY, or even if you pair EYESY with an external sequencer.
 
@@ -370,7 +370,7 @@ Please note that MIDI clock messages are *system* MIDI messages. That means that
 
 To change the channel on which the EYESY receives MIDI notes, please see the `Shift` menu section in Chapter Two. 
 
-# Chapter Four: Accessing EYESY from Elsewhere 
+# 4. Accessing EYESY from Elsewhere 
 
 ### WiFi, WiFi, WiFi.
 
@@ -390,7 +390,7 @@ We will start with getting connected to EYESY with WiFi, then discussing the par
 
 > **NOTE:**  The included `USB-WiFi Adapter` uses the Ralink 5370 chipset. This adapter will only connect to 2.4 GHz WiFi networks.  We have experimented with other WiFi adapters but we don't have a conclusive list of what works and what doesn't.  Please consult the [forum](https://forum.critterandguitari.com) to discuss other possible adapters.  When in doubt, stick with the included adapter which has been proven to work very well.
 
-## Access Point vs. Joining Existing Networks
+## 4.1 Access Point vs. Joining Existing Networks
 
 The EYESY has two modes of WiFi operation: the *Access Point* (*AP*) and *normal* modes.  With *AP* mode the EYESY uses the `USB-WiFi Adapter` to create its own network (Access Point, or hot-spot). In *normal* mode the EYESY uses the `USB-WiFi Adapter` to connect to an existing WiFi network. File management and programming are done in the same manner regardless of WiFi mode. Said another way, the EYESY is agnostic about which method you choose. 
 
@@ -424,7 +424,7 @@ You can change an existing network's details at any time. You can also change th
 
 Now that we know both ways to connect to EYESY via WiFi, we can get into the nitty gritty: 
 
-## Explanation of the Editor
+## 4.2 Explanation of the Editor
 
 The `Editor` is a way to look into and modify the EYESY in real time. You can move, add, delete, and copy files and folders just like you can with your computer's Finder/File Explorer. You can also view, edit, and reload the code for a given mode. To assist with with programming, the `Editor` has a `Console` so you can debug your modes. With these functions in mind, it should be no surprise that it is divided into three sections:
 
@@ -446,7 +446,7 @@ From top to bottom, the commands are:
 	- To copy a folder to/from the EYESY, you will need to zip it first. Folders cannot be uploaded or downloaded without zipping first. 
 - *File Browser*: At boot up, *Home/* will be displayed above three folders and a file called 'Scenes.csv'. The *Home* folder contains these folders and file. You can click into the folders (e.g. *Home/Modes/*) or click a file to be displayed in the `Code` pane. More about the file browser and file management below.
 
-## Folder & File Management in the MicroSD Card
+## 4.3 Folder & File Management in the MicroSD Card
 
 As has been mentioned, EYESY needs a microSD card to run. The card that ships with EYESY has two partitions: one for the OS and one for storage. It's best to pretend that the OS partition does not exist - there's not much there to customize, and you can't access it from the `Editor`. The storage partition's *Home* folder is where everything we want to use is. The only way to access *Home* is via WiFi. Modes are stored and run directly from *Home*. (While not mission-critical, scenes and screenshots are also stored here to.) Some rules apply:
 
@@ -529,7 +529,7 @@ There is one choice in the `Settings` page that is not related to WiFi, file man
 Any saved changes to this setting will take effect after reboot. (Please remember that during boot up, EYESY will first check if it is connected to a powered HDMI display. If does not find one, it will automatically use the composite port to output video. So you must not have an HDMI cable connected to EYESY to use the composite output. Don't forget to set the correct input on your display too!)
 
 
-# Chapter Five: Programming for EYESY
+# 5. Programming for EYESY
 
 ### For those with a text editor and a dream.
 
@@ -549,7 +549,7 @@ In this chapter, we will start with the concepts and requirements for any EYESY 
 So this is the road before us. We have already seen how EYESY handles; now let’s change the oil and go for a spin...
 
 
-## How Mode Scripts Work
+## 5.1 How Mode Scripts Work
 
 A word or two on how EYESY actually does its work will go a long way. We will spend a moment on the languages at play and the system behavior of EYESY, and then we will talk about the basic requirements of a mode.
 
@@ -605,7 +605,7 @@ Next comes the `draw()` function. The first three lines of the function are defi
 That is about the simplest mode we could make, and its result is equally simple — a red circle is drawn near the middle of the screen, each and every frame, forever. This example offers the basic framework for examining the factory modes and for understanding how to structure your own modes. Our only suggestion is an obvious one: you should probably send different images out of EYESY from time to time.
 
 
-## EYESY’s API
+## 5.2 EYESY’s API
 
 Having walked through the general framework and requirements of EYESY’s modes, it’s time to take a look at the API (application programming interface) available when working with EYESY. The `etc` object contains a number of variables, all of which can be accessed from any mode:
 
@@ -649,9 +649,9 @@ Finally, we are not telling you how to make modes. We aren’t telling you what 
 
 We leave it to you to have a working knowledge of **Python**, to come up with some ideas for tweaks or completely new modes, and to try and make it work. Even if you don’t nail it the first time, chances are you will come across some happy accidents as you go. As always, it’s along the way that art gets made.
 
-# Chapter Six - Appendix
+# 6. Appendix
 
-## Burning SD Card Disk Image 
+## 6.1 Burning SD Card Disk Image 
 
 In addition to storing modes, the microSD card also stores the EYESY's operating system.  
 
