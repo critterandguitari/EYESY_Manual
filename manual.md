@@ -8,9 +8,7 @@ For EYESY OS version 2.0.
 
 ©2020 Critter & Guitari. All Rights Reserved.
 
-# Chapter Zero: Quick-start Guide
-
-### Let there be visuals!
+# Getting Started
 
 Welcome to **EYESY**! Time is money so let’s get you up and running…
 
@@ -24,7 +22,7 @@ There are four items in the box you just opened:
 - **A Power Adapter**. This power adapter has prongs for US-style wall sockets, but it will work with input voltages from 100 to 240VAC at 50/60Hz. You may need an adapter for the shape of your wall socket.
 
 
-## Getting Started
+## Let there be visuals!
 
 Follow these steps to make your sound visual.
 
