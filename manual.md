@@ -655,7 +655,7 @@ In addition to storing modes, the microSD card also stores the EYESY's operating
 
 Burning a fresh disk image on the microSD card will reset your EYESY to the 'factory' state. It includes one partition for the OS and another for mode storage, etc. This is useful to update to the latest EYESY OS, or to fix a problem with the microSD card.  
 
-This will completely wipe the microSD card clean, so make sure to backup anything on there that you need.  See Chapter Four for information on downloading your modes and screenshots and other files. You can also use a brand new card if you wanted to keep your old OS available.   
+This will completely wipe the microSD card clean, so make sure to backup anything on there that you need.  See Chapter Four for information on downloading your modes and screenshots and other files. You can also use a brand new card if you wanted to keep your old OS available. If you are looking to use a new card with the same specifications of the card that shipped with your EYESY, those specificaitons are: SanDisk Edge 8GB microSDHC C4 UHS-I.
 
 Follow these steps to burn a new SD card:
 
