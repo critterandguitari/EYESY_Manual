@@ -283,6 +283,8 @@ Most of the ports are on the back of EYESY, and many of them have already come u
 
 **The `HDMI Out` port** serves as the video output for EYESY. During power up the EYESY will check it is connected to a powered HDMI display. If it is it will automatically choose this port to output video. 
 
+> Note: The `HDMI Out` port only sends video. It does not send any audio from the EYESY. 
+
 > Note: Both `Composite Out` and `HDMI Out` ports cannot be used simultaneously.  
 
 **MicroSD card slot** Next is an unlabeled microSD card slot. This slot houses a preloaded card that serves as the location of internal microcomputer’s operating system and mode storage. The contents of this card are not readable by your computer so we do not recommend ejecting or otherwise manipulating this card unless you are going to 'burn' a new disk image onto it. Please see Chapter 4 for information about accessing the card's storage via WiFi and Chapter 6 for information about burning the OS (as to perform a 'factory reset'). 
