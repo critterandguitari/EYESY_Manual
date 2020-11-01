@@ -682,3 +682,19 @@ Follow these steps to burn a new SD card:
 9. Remove the microSD card from your computer and reinsert it in EYESY. Make sure that the SD card is going into the socket on the circuit board, as it is easy to drop it into the device. If you can wiggle it a lot, it probably is not in socket. Use the same pin/paperclip to press it in until you hear/feel a 'click.'
 10. Restart the EYESY.
 
+## 6.2 Recording Video with a Capture Card
+
+Now that you're making great visuals, you may want to record your work as a video, stream your visuals, or route your visuals into VJ software. In order to do any of these things you will need to capture EYESY's video output. Unfortunately, most computers do not have a video input. This process is therefore done with a video capture card. 
+
+Before choosing a capture card there are some differences of which to be aware. Consider video input options: some capture cards only receive HDMI video, some can receive HDMI and component among other formats. Another consideration is software compatibility. Your video feed may or may not available to other programs. Devices such as Elgato capture cards can only use Elgato software to record video as a file. Alternatively, devices such as Blackmagic capture cards can be used with third-party software, and can be recorded into an existing video project, or recorded into an editing program. There are other options but those are the big ones. Check our forum for other makes/models. Most capture cards have both audio and video inputs. EYESY has no audio output, which would require an additional audio line be sent to your capture card to be recorded.
+
+Here's a typical video capture workflow:
+
+1. Connect a capture card to your computer. 
+2. Connect EYESY's `Video Out` to the input of the capture card, but do not power on yet.
+3. __Optional:__ Connect your setup's audio output to your capture card.
+2. Open the compatible video software.
+3. Configure the software to receive video and/or audio from your capture card. This is usually done in a 'Capture Settings' window.
+4. Power up EYESY.
+5. Confirm EYESY's video output is received in the video software.
+6. Record video and/or audio, stream, or mix with other video in VJ software.
