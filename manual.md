@@ -684,9 +684,14 @@ Follow these steps to burn a new SD card:
 
 ## 6.2 Recording Video with a Capture Card
 
-Now that you're making great visuals, you may want to record your work as a video, stream your visuals, or route your visuals into VJ software. In order to do any of these things you will need to capture EYESY's video output. Unfortunately, most computers do not have a video input. This process is therefore done with a video capture card. 
+Now that you're making great visuals, you may want to record your work as a video, stream your visuals, or route your visuals into VJ software. In order to do any of these things you will need to capture EYESY's video output. Unfortunately, most computers do not have a video input. This process is therefore done with a video 'capture card.' 
 
-Before choosing a capture card there are some differences of which to be aware. Consider video input options: some capture cards only receive HDMI video, some can receive HDMI and component among other formats. Another consideration is software compatibility. Your video feed may or may not available to other programs. Devices such as Elgato capture cards can only use Elgato software to record video as a file. Alternatively, devices such as Blackmagic capture cards can be used with third-party software, and can be recorded into an existing video project, or recorded into an editing program. There are other options but those are the big ones. Check our forum for other makes/models. Most capture cards have both audio and video inputs. EYESY has no audio output, which would require an additional audio line be sent to your capture card to be recorded.
+Before choosing a capture card please be aware of the following options:
+
+- Video Input: some capture cards only receive HDMI video. Other cards can receive HDMI and composite video - which would let you capture both of EYESY's output formats (but only one format at a time). 
+- Software Compatibility: Your video feed may or may not available to other programs. Devices such as Elgato capture cards can only use Elgato software to record a video file. Alternatively, devices such as Blackmagic capture cards can be used with third-party software. This means that your EYESY video can be recorded by Adobe Premiere, Quicktime, etc., streamed with a program like OBS, or combined with other visuals in VJ software.
+
+One last thing to consider: Most capture cards have both audio and video inputs. EYESY has no audio output. This requires an additional audio line be sent to your capture card to be recorded.
 
 Here's a typical video capture workflow:
 
