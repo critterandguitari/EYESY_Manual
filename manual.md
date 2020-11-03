@@ -682,9 +682,9 @@ Follow these steps to burn a new SD card:
 9. Remove the microSD card from your computer and reinsert it in EYESY. Make sure that the SD card is going into the socket on the circuit board, as it is easy to drop it into the device. If you can wiggle it a lot, it probably is not in socket. Use the same pin/paperclip to press it in until you hear/feel a 'click.'
 10. Restart the EYESY.
 
-## 6.2 Recording Video with a Capture Card
+## 6.2 Getting EYESY Video into Your Computer
 
-Now that you're making great visuals, you may want to record your work as a video, stream your visuals, or route your visuals into VJ software. In order to do any of these things you will need to capture EYESY's video output. Unfortunately, most computers do not have a video input. This process is therefore done with a video 'capture card.' 
+Now that you're making great visuals, you may want to use a computer to record your work as a video, stream your visuals, or route your visuals into VJ software. In order to do any of these things you will need to capture EYESY's video output. Unfortunately, most computers do not have a video input. This process is therefore done with a video 'capture card.' 
 
 Before choosing a capture card please be aware of the following options:
 
