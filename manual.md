@@ -718,5 +718,5 @@ You should now be connected. To set up the WiFi network, use the wpa_passphrase 
 
 Replacing Network Name and Password with your network credentials. 
 
-You can type "exit" to logout. Next time you turn the EYESY on it will attempt to join this network (unless you are holding down the shift key in which case it will start in AP mode) 
+You can type "exit" to logout. Next time you turn the EYESY on it will attempt to join this network (unless you are holding down the shift key in which case it will start in AP mode).
 
