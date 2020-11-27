@@ -703,3 +703,20 @@ Here's a typical video capture workflow:
 4. Power up EYESY.
 5. Confirm EYESY's video output is received in the video software.
 6. Record video and/or audio, stream, or mix with other video in VJ software.
+
+## 6.3 Setting up WiFi with SSH
+
+The EYESY is running an SSH server so you can login and setup WiFi without having to use the web interface. First start EYESY in AP mode by holding down the shift key during boot up. Now on your computer join the EYESY network with the password "coolmusic" (see section 4.1 for more info). Once your computer is connected to the EYESY network you can use a terminal to login to the EYESY via SSH. These commands are for a unix based terminal, i.e. Mac or Linux OS. Run the follwing command:
+
+    ssh music@eyesy.local
+    
+And then enter the password "music"
+
+You should now be connected. To set up the WiFi network, use the wpa_passphrase command:
+
+    wpa_passphrase "Network Name" "Password" >> /sdcard/System/wpa_supplicant.conf    
+
+Replacing Network Name and Password with your network credentials. 
+
+You can type "exit" to logout. Next time you turn the EYESY on it will attempt to join this network (unless you are holding down the shift key in which case it will start in AP mode) 
+
