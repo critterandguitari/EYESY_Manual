@@ -403,7 +403,7 @@ Let's walk through the steps needed to get to the `Editor` page via *Access Poin
 
 1. With the EYESY turned off connect the `USB-WiFi Adapter` to the EYESY's `USB Port`. 
 2. Hold down the `Shift` key and turn the EYESY on. This initiates the *Access Point*. You must hold down `Shift` until your display says 'EYESY'.
-3. In your computer's WiFi network settings, choose the `EYESY` network and enter `coolmusic` in the password field.
+3. In your computer's WiFi network settings, choose the `EYESY` network and enter `'coolmusic'` in the password field.
 4. In your computer's browser's address bar, enter *eyesy.local* or the IP address. The IP address can be found on the `OSD`. If *AP* is in use, the IP address will always be `http://192.168.12.1`
 5. You will now see the Editor. It looks like this:
 
