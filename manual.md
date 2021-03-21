@@ -315,7 +315,7 @@ Let's look at EYESY’s MIDI implementation. This will be useful if you want to 
 
 There are two ways to get MIDI from external MIDI controllers into the EYESY: through the dedicated `MIDI In` port and with the `USB` port. 
 
-Before preceding further, we should take a minute to discuss some important characteristics of both ports: 
+Before proceeding further, we should take a minute to discuss some important characteristics of both ports: 
 
 > The `MIDI In` port is a TRS-MIDI *Type A* port. *Type A* refers to the order of connections of the 3.5mm (⅛") Tip-Ring-Sleeve (TRS) plug & jack. In order to connect to external devices with the larger, older, five-pin DIN connectors you will need a Type A Male 3.5mm (⅛") TRS to Female 5-pin DIN adapter. *Type A* connections are the adopted standard set by the MIDI Manufacturers Association. There is a *Type B* but these will not work with EYESY! There are no obvious physical differences between the *Type A* and *B* - both 3.5mm (⅛") plugs look exactly the same. Please be sure you have the correct adapter. 
 > 
@@ -331,7 +331,7 @@ Let’s start by examining the different type of messages that EYESY uses.
 
 #### Control Change Messages
 
-Incoming control change messages using controller numbers `21` through `25` have an effect on EYESY. The following knobs correspond to the listed controller number:
+Incoming control change messages using controller numbers `21` through `25` are mapped to the corresponding knobs:
 
 -   Controller Number `21` &gt; *Knob 1*
 -   Controller Number `22` &gt; *Knob 2*
@@ -366,9 +366,13 @@ The 24 ticks-per-quater-note clock can be used as a trigger source.  Using `Shif
 
 Please note that MIDI clock messages are *system* MIDI messages. That means that these messages will be received and used regardless of EYESY’s current selected MIDI channel.
 
+#### Program Change Messages
+
+Incoming program change messages will select scenes. If there are no scenes stored, the program change messages select modes. 
+
 #### Changing the Selected MIDI Channel
 
-To change the channel on which the EYESY receives MIDI notes, please see the `Shift` menu section in Chapter Two. 
+To change the channel on which the EYESY receives MIDI messages, please see the `Shift` menu section in Chapter Two. 
 
 # 4. Accessing EYESY from Elsewhere 
 
