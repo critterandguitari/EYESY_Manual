@@ -667,7 +667,7 @@ Follow these steps to burn a new SD card:
 
 1. Download the microSD card disk image to your computer: 
 
-    - Current OS release: [EYESY-2.3](http://thepeacetreaty.org/eyesy/images/EYESY-v2.3.img.zip). Requires 8GB or larger microSD card.
+    - Current OS release: [EYESY-2.3](https://cgdiskimages.nyc3.digitaloceanspaces.com/EYESY-v2.3.img.zip). Requires 8GB or larger microSD card.
      
 2. **Optional**: If you want to unzip the disk image please use one of the following programs: 
 
