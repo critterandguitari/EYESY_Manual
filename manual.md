@@ -269,7 +269,7 @@ Pressing the *Trigger* button will also fill EYESY’s buffer of recently receiv
 This manual trigger will happen immediately. Pressing it will cause a trigger to occur at a different point in time other than what may be set with the `Shift + Trigger Select knob`.
 
 
-### The Rear Panel
+## 2.4 The Rear Panel
 
 ![](images/EYESY-ports.jpg)
 
@@ -279,9 +279,9 @@ Most of the ports are on the back of EYESY, and many of them have already come u
 
 **The `9VDC` power port** is made for the power supply included with EYESY. The power supply’s output specifications are as follows: 9VDC, 1000mA, and a tip with center-positive polarity. If you are uncertain whether a power supply will work with EYESY, do *not* plug it in to find out.
 
-**The `Composite Out` port** serves as the video output for EYESY. During power up the EYESY will check it is connected to a powered HDMI display. If does not find one it will automatically choose this port to output video. This port can send an NTSC or PAL formatted signal. To select your format, see the last section of Chapter Four. 
+**The `Composite Out` port** serves as the video output for EYESY. During power up the EYESY will check it is connected to a powered HDMI display. If it does not find a powered HDMI display it will automatically choose the `Composite Out` port to output video. This port can send an NTSC or PAL formatted signal. To select your format, see the last section of Chapter Four. 
 
-**The `HDMI Out` port** serves as the video output for EYESY. During power up the EYESY will check it is connected to a powered HDMI display. If it is it will automatically choose this port to output video. 
+**The `HDMI Out` port** serves as the video output for EYESY. During power up the EYESY will check it is connected to a powered HDMI display. If it is, it will automatically choose this port to output video. 
 
 > Note: The `HDMI Out` port only sends video. It does not send any audio from the EYESY. 
 
@@ -408,7 +408,7 @@ Let's walk through the steps needed to get to the `Editor` page via *Access Poin
 1. With the EYESY turned off connect the `USB-WiFi Adapter` to the EYESY's `USB Port`. 
 2. Hold down the `Shift` key and turn the EYESY on. This initiates the *Access Point*. You must hold down `Shift` until your display says 'EYESY'.
 3. In your computer's WiFi network settings, choose the `EYESY` network and enter `'coolmusic'` in the password field.
-4. In your computer's browser's address bar, enter *eyesy.local* or the IP address. The IP address can be found on the `OSD`. If *AP* is in use, the IP address will always be `http://192.168.12.1`
+4. In your computer's browser's address bar, enter *eyesy.local* or the IP address. The IP address can be found on the `OSD`. If *AP* is in use, the IP address will always be `http://192.168.12.1`. Please note: If you have issues with connecting to *eyesy.local*, please try using a private / incognito browser window to connect. The private window helps avoid issues with browser cache.
 5. You will now see the Editor. It looks like this:
 
 ![](images/EYESY-local-main.png)
@@ -419,7 +419,7 @@ There's a lot to cover in the `Editor`, but for now we'll focus on entering cred
 2. Enter the details of the network you would like to join and select save. (See screenshot below)
 3. Slide the EYESY's `Power Switch` to *Off*. After `LED` goes out, slide `Power Switch` back to *On* (without holding `Shift`).
 4. If you entered network credentials correctly, EYESY will have automatically joined the existing network after boot up. Viewing the `OSD` will show the name of the network the EYESY is connected to and the IP address. The IP address may change from one connection session to the next so it's good to check the `OSD` before proceeding to the next step. 
-5. In your computer's browser's address bar, enter *eyesy.local* or the IP address.
+5. In your computer's browser's address bar, enter *eyesy.local* or the IP address shown on the `OSD`. Please note: If you have issues with connecting to *eyesy.local*, please try using a private / incognito browser window to connect. The private window helps avoid issues with browser cache.
 5. You will now be back at the `Editor` page.
 
 You can change an existing network's details at any time. You can also change the name and password of the *AP* that your EYESY generates. This may be useful if you are touring, etc. where you would like to keep things more secure. Any change to the WiFi settings will not take effect until the next time the EYESY boots up. The screenshot below shows the network and *AP* fields: 
